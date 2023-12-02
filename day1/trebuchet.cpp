@@ -25,7 +25,6 @@ int _getDigits(string line) {
         if (!isalpha(line[i])) {
             newline += line[i];
         }
-    
     }
 
     firstDigit = newline.front() - '0';
