@@ -48,5 +48,7 @@ int main() {
 
     cout<<sum<<endl;
 
+    IF.close();
+
     return 0;
 }
